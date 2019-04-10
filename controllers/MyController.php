@@ -15,7 +15,7 @@ class MyController extends AppController
             'Sidorov'
         ];
 
-        $this->debug($names);
+//        $this->debug($names);
 
         return $this->render('index',compact('hi', 'names','id'));
     }
